@@ -9,3 +9,180 @@ font-family: 'Open Sans', sans-serif; */
 body{
     font-family:'Open Sans', sans-serif;
 }
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.date{
+    color: #CBCBCB;
+}
+
+.header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.header .navigation .menu-list{
+    display: flex;
+}
+.header .navigation .menu-link{
+    color: white;
+    padding: 8px 16px;
+    display: block;
+    transition: all .9s ease;
+}
+
+.header .navigation .menu-link:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.header .navigation .menu-link .icon{
+    display: block;
+}
+.header .logo{
+    text-align: center;
+    padding: 75px 0 60px 0;
+    font-family:'Oswald', sans-serif ;
+}
+.header .logo .big-title{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-size: 48px;}
+
+.header .logo .small-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+.header .logo .small-title .ok{
+    background-color: black;
+    color: white;
+    padding:0px 8px 0px 8px ;
+}
+/* ------------main---------- */
+
+.main .banner{
+    position: relative;
+}
+.main .banner .img{
+    width: 100%;
+    height: auto;
+}
+.main .banner .content{
+    position: absolute;
+    color:white;
+    top: 50%;
+    transform: translate(-0,-50%);
+    margin-left: 24px;
+  
+}
+.main .content .type{
+    font-size:36px ;
+    font-family: 'Oswald', sans-serif;
+}
+.main .content .big-type{
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+}
+.main .content .button{
+    border: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 24px;
+    opacity: 0.6;
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    margin-top: 12px;
+}
+.main .content .button:hover{
+    opacity: 0.8;
+}
+
+/* ------------continer------------ */
+.container{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F1F1F1;
+    display: flex;
+    padding:30px 30px 45px 30px;
+    
+}
+.content-left {
+    flex: 2;
+}
+.content-right {
+    flex: 1;
+}
+
+.blogs{
+    background-color: #fff;
+    padding: 30px 25px;
+    margin: 0 30px 0 0;
+}
+.imgblog{
+    width: 100%;
+    height: auto;
+}
+.para1{
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.container .content-left .titleblog{
+    text-align: center;
+}
+.container .content-left .titleblog >h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.container .content-left .titleblog >h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.btn-group .like,
+.btn-group .pagination{ 
+    padding: 8px 16px;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.btn-group .pagination {
+    background-color: black;
+    color: white;
+}
+.btn-group .pagination >span{
+    background-color: whitesmoke;
+    color: black;
+    padding: 0 8px;
+}
+.btn-group .like:hover,
+.btn-group .pagination:hover{
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+ }
+
+.comment{
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    padding-top: 25px;
+}
+.comment .comment-group{
+    display: flex;
+}
+.smokeman{
+    margin-right:80px ;
+    height:100px ;
+    width: 90px;
+}
